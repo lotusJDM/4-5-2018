@@ -1,0 +1,104 @@
+* {
+  font-family: Arial, Verdana, sans-serif;
+  color: rgb(217, 223, 242);
+  text-align: center;
+}
+
+
+body {
+  background-image:url("https://i.imgur.com/etIfl0m.jpg");
+  background-repeat: no-repeat;
+  width: 90%;
+  margin: 0 auto;
+  background-size: cover;
+}
+
+#content {
+  overflow: auto;
+}
+#nav,
+#feature,
+#footer {
+  margin: 1%;
+}
+#nav{
+  background-color:rgba(50, 154, 244, 0.96);
+
+}
+#feature{
+  background-image:url("https://i.imgur.com/2S9pXnv.png");
+  background-position: left;
+  background-position: right;
+}
+#footer{
+  background-color:rgba(50, 154, 244, 0.96);
+}
+.column1
+{float: center;
+  background-color:rgba(1, 9, 15, 0.51);
+}
+
+h1{
+  font-family: 'surprise'; 
+  font-weight: normal; 
+  font-style: normal; 
+}
+
+
+li {
+  display: inline;
+  padding: 0.5em;
+}
+#nav,
+#footer {
+
+  padding: 0.5em 0;
+}
+#feature,
+.article {
+  height: 10em;
+  margin-bottom: 1em;
+}
+
+.top-leftcontact{
+  background-color: lightgrey;
+  width: 600px;
+  padding: 25px;
+  margin: 25px;
+  position: absolute;
+  top: 100px;
+  left: 90px;
+  font-size: 160%;
+  font-family: serif;
+  font-weight: normal; 
+  font-style: normal;
+  opacity: .7
+}
+
+.top-leftcontact{
+  width:400px;
+  padding:5px;
+  margin: 0 auto;
+}
+
+.articlecontact{
+    background-color: #cd3333;
+    width: 200px;
+    padding: 25px;
+    margin: 25px;
+    position: center;
+    top: 100px;
+    left: 90px;
+    font-size: 160%;
+    font-family: serif;
+    font-weight: normal; 
+    font-style: normal;
+    opacity: .9
+  }
+
+  .top-leftcontact{
+    width:400px;
+    padding:5px;
+    margin: 0 auto;
+  }
+}
